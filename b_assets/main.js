@@ -14,3 +14,13 @@ dateItems.forEach((item) => {
     const daysAgo = parseInt(item.dataset.daysAgo, 10);  
     item.textContent = getDateDaysAgo(daysAgo);  
 });
+
+ 
+const randomElement = document.querySelector('.random');
+ 
+if (randomElement) { 
+    const currentValue = parseInt(randomElement.textContent, 10);
+    const randomDecrease = Math.floor(Math.random() * 6) + 1;
+ 
+    randomElement.textContent = currentValue - randomDecrease;
+}

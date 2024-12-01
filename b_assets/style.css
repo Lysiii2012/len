@@ -190,6 +190,18 @@ h2{
     clear: both;
     font-size: 12px;
 }
+.logo_bank{
+    max-width: 200px;
+    margin: 0 auto;
+}
+.num{
+    text-align: center;
+    font-weight: 600;
+}
+.random{
+    color: #B22222;
+    font-size: 1.3rem;
+}
 .coment p{
     margin: 0 0 10px;
 }
