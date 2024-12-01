@@ -198,6 +198,10 @@ h2{
     text-align: center;
     font-weight: 600;
 }
+h4{
+    font-weight: 600;
+    margin: 0 0 10px;
+}
 .random{
     color: #B22222;
     font-size: 1.3rem;
